@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+% Set the page style to "fancy"...
+\pagestyle{fancy}
+\title{GNU Project}
+
+\fancyhf{} % clear existing header/footer entries
+% We don't need to specify the O coordinate
+\fancyhead{} % clear all header fields
+\fancyhead[R]{GNU Project}
+\fancyfoot{}  % clear all footer fields
+\fancyfoot[LO,CE]{Siddaganga Institute of Technology}
+
+\fancyfoot[R]{\thepage}
+\maketitle
+
+
+
+
+\section{What is GNU?}
+GNU is an operating system that is free software—that is, it respects users' freedom. The GNU operating system consists of GNU packages (programs specifically released by the GNU Project) as well as free software released by third parties. The development of GNU made it possible to use a computer without software that would trample your freedom.
+
+\section{More about GNU}
+GNU is a Unix-like operating system. That means it is a collection of many programs: applications, libraries, developer tools, even games. The development of GNU, started in January 1984, is known as the GNU Project. Many of the programs in GNU are released under the auspices of the GNU Project; those we call GNU packages. \\
+
+The name "GNU" is a recursive acronym for "GNU's Not Unix." "GNU" is pronounced g'noo, as one syllable, like saying "grew" but replacing the r with n. \\
+
+The program in a Unix-like system that allocates machine resources and talks to the hardware is called the "kernel." GNU is typically used with a kernel called Linux. This combination is the GNU/Linux operating system. GNU/Linux is used by millions, though many call it "Linux" by mistake.
+
+\section{What is the Free Software Movement?}
+The free software movement campaigns to win for the users of computing the freedom that comes from free software. Free software puts its users in control of their own computing. Nonfree software puts its users under the power of the software's developer. \\
+
+\section{What is Free Software?}
+\textbf{Free software means the users have the freedom to run, copy, distribute, study, change and improve the software.}
+
+Free software is a matter of liberty, not price. To understand the concept, you should think of "free" as in "free speech," not as in "free beer". More precisely, free software means users of a program have the four essential freedoms:
+
+\begin{itemize}
+\item The freedom to run the program as you wish, for any purpose (freedom 0).
+\item The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+\item The freedom to redistribute copies so you can help others (freedom 2).
+\item The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+
+Developments in technology and network use have made these freedoms even more important now than they were in 1983. Nowadays the free software movement goes far beyond developing the GNU system. 
+
+\end{itemize}
+
+
+\end{document}
