@@ -1,0 +1,105 @@
+\documentclass[6pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\author{Lekhaka}
+\title{Varadhi}
+\begin{document}
+
+\maketitle
+\chapter{Free Software}
+\section*{What is Free Software?}
+"\textbf{Free software}" means software that respects users' freedom and community. Roughly, it means that \textbf{the users have the freedom to run, copy, distribute, study, change and improve the software}. Thus, "free software" is a matter of liberty, not price. To understand the concept, you should think of "\textit{free}" as in "\textit{free speech}," not as in "\textit{free beer}." We sometimes call it "\textbf{libre software}," borrowing the French or Spanish word for "free" as in freedom, to show we do not mean the software is gratis.
+
+You may have paid money to get copies of a free program, or you may have obtained copies at no charge. But regardless of how you got your copies, you always have the freedom to copy and change the software, even to sell copies.
+
+We campaign for these freedoms because everyone deserves them. With these freedoms, the users (both individually and collectively) control the program and what it does for them. When users don't control the program, we call it a "\textit{nonfree}" or "\textit{proprietary}" program. The nonfree program controls the users, and the developer controls the program; this makes the program an instrument of unjust power.
+
+"\emph{Open source}" is something different: it has a very different philosophy based on different values. Its practical definition is different too, but nearly all open source programs are in fact free. 
+
+\section*{The Free Software Definition}
+The free software definition presents the criteria for whether a particular software program qualifies as free software. \\
+\textbf{The four essential freedoms}		\\
+
+A program is free software if the program's users have the four essential freedoms:	\\
+\begin{itemize}
+\item The freedom to run the program as you wish, for any purpose (freedom 0).
+\item The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+\item The freedom to redistribute copies so you can help others (freedom 2).
+\item The freedom to distribute copies of your modified versions to others (freedom 3). 
+
+\end{itemize}
+
+
+By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this. \\
+
+A program is free software if it gives users adequately all of these freedoms. Otherwise, it is nonfree. While we can distinguish various nonfree distribution schemes in terms of how far they fall short of being free, we consider them all equally unethical.
+
+
+\chapter{Listing Environment}
+
+\begin{small}
+\section*{Unordered lists}
+
+\subsection*{Groceries List}
+\begin{itemize}
+	\item Eggs
+	\item Milk
+	\item Biscuits
+	\item Rice
+\end{itemize}	
+
+\subsection*{Football Teams}
+
+\begin{itemize}
+	\item English Premier League
+	\begin{itemize}
+		\item Manchester United
+		\item Liverpool
+	\end{itemize}
+	
+	\item La Liga
+	\begin{itemize}
+		\item Barcelona
+		\item Real Madrid
+	\end{itemize}	
+
+	\item Bundesliga
+	\begin{itemize}
+		\item Bayern Munich
+		\item Borussia Dortmund
+	\end{itemize}	
+\end{itemize}
+
+\section*{Ordered lists}
+\subsection*{ICC WTC Rankings}
+\begin{enumerate}
+\item India
+\item Australia
+\item New Zealand
+\end{enumerate}
+
+\subsection*{Countries ranked by Market Cap}
+\begin{enumerate}
+	\item Asia
+	\begin{enumerate}
+		\item China
+		\item Japan
+		\item India
+	\end{enumerate}
+
+	\item Europe
+	\begin{enumerate}
+		\item United Kingdom
+		\item France
+		\item Germany
+	\end{enumerate}
+
+\end{enumerate}
+\end{small}
+
+
+\end{document}
