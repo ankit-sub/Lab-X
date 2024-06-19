@@ -1,0 +1,33 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{algorithm2e}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+
+\section*{Floyd's Algorithm}
+Algorithm to find solution to All-Pairs Shortest-Paths Problem
+
+\SetKwComment{Comment}{// }{ }
+
+\vspace{1cm}
+	\begin{algorithm}[H]
+        \caption{Floyd(W [1..n, 1..n])}
+      \SetAlgoLined
+        \DontPrintSemicolon
+        \KwIn{The weight matrix W of a graph having vertices [1..n]}
+        \KwOut{The distance matrix D of the shortest paths' lengths between every pair of vertices [1..n]}
+        $D$ $\gets$ $W$ \Comment*[r]{initially copy the weight matrix into distance matrix}
+        \For{$k \gets 1$ to $n$}{
+        	\For{$i \gets 1$ to $n$}{
+        		\For{$j \gets 1$ to $n$}{
+        			$D[i,j]$ $\gets min\lbrace D[i,j], D[i,k] + D[k,j]\rbrace$
+        		}
+        	}
+        }
+        \Return{$D$}\;
+
+	\end{algorithm}
+\end{document}
