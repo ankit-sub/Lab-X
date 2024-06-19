@@ -1,0 +1,32 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\begin{document}
+
+\begin{center}
+\begin{Large}
+\textbf{Table Demo}
+\end{Large}
+\end{center}
+
+\section*{Marks Table}
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+\multirow{2}{*}{S.No} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student Name} & \multicolumn{3}{c|}{Marks} \\ 
+\cline{4-6} 
+ &  &  & Subject1 & Subject2 & Subject3 \\ 
+\hline 
+1 & 4XX22XX001 & Name 1 & 88 & 77 & 97 \\ 
+\hline 
+2 & 4XX22XX002 & Name 2 & 74 & 78 & 66 \\ 
+\hline 
+3 & 4XX22XX003 & Name 3 & 88 & 82 & 79 \\ 
+\hline 
+\end{tabular} 
+
+\end{document}
