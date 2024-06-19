@@ -1,0 +1,33 @@
+@ARTICLE{resource,
+author={Ahmed, Shakil and Chowdhury, Mostafa Zaman and Sabuj, Saifur Rahman and Alam, Md Imtiajul and Jang, Yeong Min},  journal={IEEE Access},   title={Energy-Efficient UAV Relaying Robust Resource Allocation in Uncertain Adversarial Networks},   year={2021},  volume={9},  number={},  pages={59920-59934},  doi={10.1109/ACCESS.2021.3073015}}
+
+@ARTICLE{resource2,  author={Yang, Zhaohui and Pan, Cunhua and Wang, Kezhi and Shikh-Bahaei, Mohammad},  journal={IEEE Transactions on Wireless Communications},   title={Energy Efficient Resource Allocation in UAV-Enabled Mobile Edge Computing Networks},   year={2019},  volume={18},  number={9},  pages={4576-4589},  doi={10.1109/TWC.2019.2927313}}
+
+
+@ARTICLE{offload,  author={Apostolopoulos, Pavlos Athanasios and Fragkos, Georgios and Tsiropoulou, Eirini Eleni and Papavassiliou, Symeon},  journal={IEEE Transactions on Mobile Computing},   title={Data Offloading in UAV-assisted Multi-access Edge Computing Systems under Resource Uncertainty},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/TMC.2021.3069911}}
+
+@INPROCEEDINGS{offload2,  author={Zhou, Fuhui and Wu, Yongpeng and Sun, Haijian and Chu, Zheng},  booktitle={2018 IEEE International Conference on Communications (ICC)},   title={UAV-Enabled Mobile Edge Computing: Offloading Optimization and Trajectory Design},   year={2018},  volume={},  number={},  pages={1-6},  doi={10.1109/ICC.2018.8422277}}
+
+@ARTICLE{trajectory,  author={Wang, Kai and Zhang, Xiao and Duan, Lingjie and Tie, Jun},  journal={IEEE Transactions on Mobile Computing},   title={Multi-UAV Cooperative Trajectory for Servicing Dynamic Demands and Charging Battery},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/TMC.2021.3110299}}
+
+@article{edgeuncertainty,
+author = {Xu, Xiaolong and Cao, Hao and Geng, Qingfan and Liu, Xihua and Dai, Fei and Wang, Chuanjian},
+title = {Dynamic resource provisioning for workflow scheduling under uncertainty in edge computing environment},
+journal = {Concurrency and Computation: Practice and Experience},
+volume = {n/a},
+number = {n/a},
+pages = {e5674},
+keywords = {edge computing, SDN, uncertainty, workflow scheduling},
+doi = {https://doi.org/10.1002/cpe.5674}
+}
+
+@ARTICLE{edgeuav,  author={Qu, Yuben and Dai, Haipeng and Wang, Haichao and Dong, Chao and Wu, Fan and Guo, Song and Wu, Qihui},  journal={IEEE Journal on Selected Areas in Communications},   title={Service Provisioning for UAV-Enabled Mobile Edge Computing},   year={2021},  volume={39},  number={11},  pages={3287-3305},  doi={10.1109/JSAC.2021.3088660}}
+
+@inproceedings{mobility,
+  title={UAV 3D Mobility Model Oriented to Dynamic and Uncertain Environment},
+  author={Na Wang and Nan Di and Fei Dai and Fangxin Liu},
+  booktitle={ICA3PP},
+  year={2018}
+}
+
+@ARTICLE{robust,  author={Li, Bo and He, Qiang and Cui, Guangming and Xia, Xiaoyu and Chen, Feifei and Jin, Hai and Yang, Yun},  journal={IEEE Transactions on Services Computing},   title={READ: Robustness-oriented Edge Application Deployment in Edge Computing Environment},   year={2020},  volume={},  number={},  pages={1-1},  doi={10.1109/TSC.2020.3015316}}
