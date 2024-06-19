@@ -1,0 +1,35 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+%\usepackage{lipsum}
+
+\begin{document}
+\thispagestyle{plain}
+
+\begin{center}
+    \Large
+    \textbf{Thesis Title}
+        
+    \vspace{0.4cm}
+    \large
+    Thesis Subtitle
+        
+    \vspace{0.4cm}
+    \textbf{Author Name}
+       
+    \vspace{0.9cm}
+    \textbf{Abstract}
+\end{center}
+%\lipsum[1]
+
+News has become an important medium for everyone to stay aware and updated with the latest happenings in the world. It is important to note that in recent times with the rise in social media the amount of fake news has surged to dangerous levels. Fake news causes a lot of economic and social problems. It also gets difficult to trace back the source of fake news and hold someone accountable in order to curb it down. It is important to have a mechanism which evicts out fake news and contains only authentic news.
+
+Fake news causes a lot of economic and social problems. It also gets difficult to trace back the source of fake news and hold someone accountable in order to curb it down. It is important to have a mechanism whichevicts out fake news and contains only authentic news. With digitization, there has been a drastic increase in the usage of some of the popular social media sites such as Twitter, Facebook, Yahoo, YouTube as a medium of spreading news. There is very little check on the spreading of fake news. Accountability, in terms of how authentic the news is, is very less.
+
+Our project aims to create a platform that runs on a blockchain network. News based media will be shared across this network. The origin of data and every user interaction will be recorded and get updated in the decentralized ledger and since it is in the blockchain, it remains immutable and nearly immune to any cyber threat.
+
+The platform will be highly intuitive and interactive for users to browse through different sections of news. Users can view articles, blogs, headlines and other news-based content. Users can also push their own content on the network. The platform also allows the users to manually rate a piece of news based on its authenticity.
+\end{document}
